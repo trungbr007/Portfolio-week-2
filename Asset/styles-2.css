@@ -352,7 +352,6 @@ footer{
     .information {
         flex-direction: column;
         list-style-type:circle;
-        padding-left: 0px;
-        margin: 10px;
+        
     }
 }
