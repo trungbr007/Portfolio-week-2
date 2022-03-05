@@ -45,14 +45,14 @@ header {
 
 }
 
-ul{
+.nav-links{
     display: flex;
     justify-content: flex-end;
     
 }
 
 
-li{
+.nav-items{
     display: inline-block;
     margin-left: 80px;
     justify-content: space-between;
@@ -98,8 +98,7 @@ img{
 
 /* main section*/
 main{
-    margin-left: 100px;
-    margin-right: 150px;
+    text-align: center;
 }
 
 
@@ -111,6 +110,7 @@ main{
     margin:auto;
     padding: 20px;
     justify-content: space-between;
+    
     
 }
 
@@ -158,11 +158,11 @@ main{
 
 .work{
     flex:1;
-    justify-content: flex-end;
+    justify-content:flex-end;
     padding: 20px;
-    float: right;
+    /* float: right; */
     display: flex;
-    width: 50px;
+    width: 35px;
     text-align: center;
     border-right: 3px solid black;
 }
@@ -287,16 +287,16 @@ main{
 }
 
 
-footer{
+/* footer{
     display: flex;
     align-items: center;
     height: fit-content;
     margin: auto;
     padding: 20px;
     
-}
+} */
 
-.contact{
+/* .contact{
     align-items: center;
     justify-content: flex-end;
     padding: 20px;
@@ -306,7 +306,8 @@ footer{
     text-align: center;
     border-right: 3px solid black;
     flex:1;
-}
+} */
+
 
 .information{
     flex:2;
